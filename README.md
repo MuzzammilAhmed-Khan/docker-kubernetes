@@ -70,7 +70,7 @@ Docker compose commands
 >>> docker compose build
 >>> docker compose up -d {build and run}
 >>> docker compose ps
->>> docker compose logs -f web-fe {gives the logs in the terminal}
+>>> docker compose logs -f acregional {gives the logs in the terminal}
 >>> docker compose -p test up -d {
     -p      project name
     run the same app again with a different name(test), after changing the port in the yaml file}
