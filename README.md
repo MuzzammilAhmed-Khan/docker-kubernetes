@@ -64,3 +64,15 @@ search in the command Pallette:
 >>> docker volume rm myvol
 {stop and remove the container and then remove the volume (in that order)
 this will remove the test.txt file}
+
+Docker compose commands
+
+>>> docker compose build
+>>> docker compose up -d {build and run}
+>>> docker compose ps
+>>> docker compose logs -f web-fe {gives the logs in the terminal}
+>>> docker compose -p test up -d {
+    -p      project name
+    run the same app again with a different name(test), after changing the port in the yaml file}
+>>> docker compose down {stop and remove the container}
+>>> docker compose -p test down {stop and remove the other instance(test)}
